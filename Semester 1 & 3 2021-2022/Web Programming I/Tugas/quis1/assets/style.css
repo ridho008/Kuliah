@@ -1,0 +1,140 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   width: 800px;
+   margin: 30px auto;
+   border: 1px solid rgb(0, 0, 0, .8);
+}
+
+.header {
+   margin: 10px;
+   width: 100%;
+   /*position: absolute;*/
+}
+
+
+
+.logo a {
+   text-decoration: none;
+   color: #C70039;
+}
+
+.nav {
+   margin: 10px 0;
+}
+
+.nav-bar > ul > li {
+   display: inline-block;
+}
+
+.nav-bar > ul > li a {
+   text-decoration: none;
+}
+
+.nav-bar > ul > li a:hover {
+   color: #1b2631 ;
+   text-decoration: underline;
+}
+
+.content {
+   margin: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.artikel p {
+   padding-right: 5px;
+}
+
+.artikel h4 {
+   margin-bottom: 5px;
+}
+
+.artikel a {
+   text-decoration: none;
+   color: #C70039;
+}
+
+.artikel a:hover {
+   text-decoration: underline;
+   color: #000;
+}
+
+.artikel img {
+   float:left;
+   width:300px;
+   height:150px;
+   object-fit: cover;
+   padding-right: 10px;
+   padding-bottom: 10px;
+}
+
+.footer {
+   /*position: absolute;*/
+   bottom: 0;
+   /*width: 100%;*/
+   padding: 10px;
+   background-color: #C70039;
+   color: #fbfcfc;
+}
+
+.footer .left {
+   display: inline-block;
+}
+
+.footer .right {
+   /*display: inline-block;*/
+   float: right;
+   margin-bottom: 15px;
+}
+
+.footer .right a {
+   color: #fbfcfc;
+}
+
+.kontak input,textarea,button {
+   width: 100%;
+}
+
+.kontak .form-group {
+   margin: 10px;
+}
+
+.tentang h4 {
+   margin-bottom: 5px;
+}
+
+.tentang h4:hover {
+   color: #C70039;
+}
+
+.tentang img {
+   float:left;
+   width:100px;
+   object-fit: cover;
+   object-position: top;
+   height:100px;
+   border-radius: 50%;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   border: 3px solid #C70039;
+   box-shadow:  10px 10px rgba(0, 0, 0, .1);
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+.isi-konten img {
+   width: 100%;
+   border: 2px solid #C70039;
+   border-radius: 10px;
+}
+
+.isi-konten h2 {
+   color: #C70039;
+   margin-bottom: 10px;
+}
